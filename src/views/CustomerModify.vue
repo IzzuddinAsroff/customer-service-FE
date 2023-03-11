@@ -180,7 +180,7 @@
                 </v-card>
             </div>
         </section>
-        <BasicDialog :isShow="openDialog" :message="dialogMessage" @close="openDialog = false"></BasicDialog>
+        <BasicDialog :isShow="openDialog" :message="dialogMessage" @close="openDialog = false, navigateBack()"></BasicDialog>
     </v-container>
 </template>
 

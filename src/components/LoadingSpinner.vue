@@ -19,4 +19,5 @@
     width: 50px;
     height: 50px;
     z-index: 2;
+    color: blue;
 }</style>
